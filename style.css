@@ -1,0 +1,50 @@
+body {
+  font-family: 'Inter', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+.layout {
+  display: flex;
+}
+main {
+  flex: 3;
+  padding: 20px;
+}
+header {
+  background: #f8f8f8;
+  padding: 20px;
+}
+.categories button {
+  margin-right: 5px;
+}
+aside {
+  flex: 1;
+  background: #f0f0f0;
+  padding: 20px;
+}
+textarea, input, select, button {
+  width: 100%;
+  margin: 10px 0;
+  padding: 10px;
+}
+#profile-pic-preview {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+#signup-popup {
+  position: fixed;
+  background: rgba(0,0,0,0.7);
+  top: 0; left: 0; right: 0; bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999;
+}
+.popup {
+  background: white;
+  padding: 30px;
+  border-radius: 8px;
+  text-align: center;
+}
